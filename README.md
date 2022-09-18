@@ -19,14 +19,21 @@ HOW TO RUN THE PROJECT:
 The Web Page for the Ed-Tech Platform can be initialized by running "npm install" in the terminal that installs the node modules and also the .env file has to provide with details as follows:
 
 DB = MONGODB Server link
+
 JWTPRIVATEKEY = htmproj
+
 SALT = 10
 
 BASE_URL=http://localhost:3000/
 
 HOST=smtp.gmail.com
+
 SERVICE=gmail
+
 EMAIL_PORT=587
+
 SECURE=true
+
 USER=yourmail@gmail.com
+
 PASS=your password
