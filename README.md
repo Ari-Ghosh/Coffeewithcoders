@@ -10,6 +10,12 @@ Our project mainly eliminates the occurences of mal-practices that could be perf
 This project hopes to bring a change in the Ed-Tech Platform and making it a more secure place to Study, Learn and Enjoy.
 
 
+
+
+
+HOW TO RUN THE PROJECT:
+
+
 The Web Page for the Ed-Tech Platform can be initialized by running "npm install" in the terminal that installs the node modules and also the .env file has to provide with details as follows:
 
 DB = MONGODB Server link
