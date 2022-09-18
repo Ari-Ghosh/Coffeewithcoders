@@ -1,0 +1,15 @@
+.Assignment{
+    border: #50505054 solid 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 10px 0px;
+}
+.AssignmentTitle h2{
+    font-size: 1.7rem;
+}
+.Status{
+    font-size: 1.3rem;
+}

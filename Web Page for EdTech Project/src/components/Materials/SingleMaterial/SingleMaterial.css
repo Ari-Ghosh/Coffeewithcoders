@@ -1,0 +1,44 @@
+.SingleMaterials{
+    background-color: white;
+    flex: 1;
+    padding: 30px 15px 0px 15px;
+    overflow-y: auto;
+}
+.SelectedAssignment{
+    border: #c9454592 solid 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 10px 0px;
+}
+.SelectedAssignmentTitle h2{
+    font-size: 1.7rem;
+}
+.SelectedAssignmentStatus{
+    font-size: 1.3rem;
+    color: rgb(243, 56, 56);
+}
+.SelectedAssignmentDescription{
+    font-size: 1.3rem;
+}
+.AssignmentButtons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.AssignmentButtons button{
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    margin-right: 8px;
+    background-color:#8F9AA8;
+    color: white;
+    border: none;
+}
+.SubmitButton{
+    background-color: #618EC3 !important;
+}

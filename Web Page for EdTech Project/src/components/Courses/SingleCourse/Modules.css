@@ -1,0 +1,22 @@
+.Module{
+    border: #50505054 solid 7px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 10px auto;
+    width: 65%;
+}
+.Title h2{
+    font-size: 1.5rem;
+}
+.play{
+    font-size: 4.2rem !important;
+    position: absolute;
+    right: -24px;
+    top: -7px;
+    background-color: white;
+    border-radius: 50%;
+}

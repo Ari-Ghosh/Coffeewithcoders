@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Profile{
+    flex:1;
+    /* background-color: rgba(137, 43, 226, 0.309); */
+    background-color: white;
+    overflow-y: auto;
+}
+.HeaderSection{
+    /* position: absolute;
+    top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* border: green solid 1px; */
+}
+.Profile button{
+    font-size: 1.3rem;
+    width:50px;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}
+.PictureSection{
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ProfileDesigner{
+    border: Blue solid 4px;
+    border-radius: 50%;
+    height: 160px;
+    width:160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ProfilePicture{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProfilePicture img{
+    height: 143px;
+    width:143px;
+    border-radius: 50%;
+}
+.ProfileName{
+    font-size: 1.1rem;
+}
+.Calendar{
+    margin: auto;
+    margin-top: 0px;
+    width:90% !important;
+    border-radius: 13px !important;
+    padding: 5px;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 13px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+  #Details{
+    /* border: rgba(0, 0, 0, 0.256) solid 1px; */
+    border-radius: 13px;
+    padding: 10px 5px 5px 5px;
+    width:90%;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+  #Details h2{
+    font-size: 1.6rem;
+  }
+  .Name, .Class, .Roll, .AddmissionNumber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

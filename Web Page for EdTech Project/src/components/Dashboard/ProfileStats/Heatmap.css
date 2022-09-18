@@ -1,0 +1,16 @@
+.Heatmap{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 10px 30px 0px 10px;
+    border-radius: 10px !important;
+    box-shadow: none;
+    border: rgba(0, 0, 0, 0.256) solid 1px;
+}
+
+.react-calendar-heatmap .color-scale-1 { fill: #44a340; }
+
+.react-calendar-heatmap .text{
+    font-size: 6px;
+    fill:black;
+}

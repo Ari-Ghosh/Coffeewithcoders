@@ -1,0 +1,29 @@
+.SingleCourse{
+    background-color: white;
+    flex: 1;
+    padding-top: 30px;
+    overflow-y: auto;
+}
+.SingleCourse img{
+    width: 70%;
+    margin: auto;
+}
+.SingleCourse div{
+    margin-bottom: 10px;
+}
+.CourseDetails{
+    width: 100%;
+}
+.CourseDescription{
+    width:70%;
+    margin: auto;
+}
+.CourseImg{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.ModuleList{
+    width: 100%;
+    margin: auto;
+}
